@@ -9,6 +9,11 @@
     color: #0065FC;
 }
 
+.gris
+{
+ color: #F2F2F2;
+}
+
 
 /* header */
 header
@@ -29,7 +34,6 @@ header
     margin-right: 50px;
     padding-top: 55px;
 }
-
 
 #menu_principal a:hover
 {
@@ -157,10 +161,46 @@ header
 
 
 /* hébergements à marseille */
-.column_autour
+#section1
 {
     display: flex;
     justify-content: space-around;
+    align-items: center;
+}
+
+article
+{
+    flex: 2;
+    background-color: #F2F2F2;
+    border-radius: 30px;
+    padding-bottom: 100px;
+    padding-top: 0px;
+    padding: auto;
+    margin-right: 20px;
+    height: 650px;
+}
+
+article h2
+{
+    font-size: 25px;
+    padding-top: 50px;
+}
+
+#titre_heber
+{
+    margin-left: 70px;
+    margin-top: 70px;
+}
+
+article p
+{
+    line-height: 0%;
+}
+
+.column_autour
+{
+    display: flex;
+    justify-content: space-evenly;
     flex-direction: column;
 }
 
@@ -176,66 +216,33 @@ header
     display: flex;
     justify-content: center;
     flex-direction: column;
-    align-item
-    s: center;
-}
-.conteneur
-{
-    width: 30%;
-    height: auto;
-    background-color: white;
-    padding: 1%;
-    border-radius: 20px;
-}
-
-.espace_cote
-{
-    width: 90%;
-}
-
-#section1
-{
-    display: flex;
-    justify-content: space-around;
     align-items: center;
 }
 
-article
+.conteneur
 {
-    flex: 2;
-    background-color: #F2F2F2;
-    border-radius: 10px;
-    margin-right: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 100px;
-    height: 650px;
-    justify-content: space-around;
-}
-
-aside
-{
-    flex: 1;
-    background-color: #F2F2F2;
-    border-radius: 10px;
-    height: 650px;
-    margin-left: 20px;
+    width: 300px;
+    height: auto;
+    background-color: white;
+    border-radius: 20px;
+    padding: 5px;
+    padding-bottom: 15px;
 }
 
 .bloc1
 {
     display: flex;
-    justify-content: space-between;
+    justify-content:space-evenly;
     align-items: center;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .bloc2
 {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
-    margin-top: 10px;
+    margin-top: 20px;
     font-family: 'Raleway';
 }
 
@@ -245,7 +252,7 @@ aside
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: 120px;
+    height: 140px;
     border-radius: 15px 15px 0 0;
 }
 
@@ -255,7 +262,7 @@ aside
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: 120px;
+    height: 140px;
     border-radius: 15px 15px 0 0;
 }
 
@@ -265,7 +272,7 @@ aside
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: 120px;
+    height: 140px;
     border-radius: 15px 15px 0 0;
 }
 
@@ -275,7 +282,7 @@ aside
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: 120px;
+    height: 140px;
     border-radius: 15px 15px 0 0;
 }
 
@@ -285,7 +292,7 @@ aside
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: 120px;
+    height: 140px;
     border-radius: 15px 15px 0 0;
 }
 
@@ -295,9 +302,168 @@ aside
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: 120px;
+    height: 140px;
     border-radius: 15px 15px 0 0;
 }
 
+article h4
+{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 70px;
+    font-size: 20px;
+}
+
+
+/* les plus populaires */
+aside
+{
+    flex: 0.8;
+    background-color: #F2F2F2;
+    border-radius: 30px;
+    height: 650px;
+    margin-left: 20px;
+    padding: 30px;
+    padding-top: 20px;
+    padding-bottom: 80px;
+}
+
+aside h2
+{
+    font-size: 25px;
+}
+
+aside p
+{
+    line-height: 0%;
+}
+
+#titre_pop
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+#cadre_pop
+{
+    display: flex;
+    background-color: white;
+    border-radius: 20px 20px 20px 20px;
+    padding: 5px;
+    width: auto;
+    margin-bottom: 35px;
+}
+
+.marge_description
+{
+    margin-left: 20px;
+}
+
+#soleil
+{
+    background-image: url(images/hebergements/soleil.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 170px;
+    width: 170px;
+    border-radius: 20px 0 0 20px;
+    padding-right: 10px;
+}
+
+#coeur
+{
+    background-image: url(images/hebergements/coeur.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 170px;
+    width: 170px;
+    border-radius: 20px 0 0 20px;
+    padding-right: 10px;
+}
+
+#tout_bleu
+{
+    background-image: url(images/hebergements/tout-bleu.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 170px;
+    width: 170px;
+    border-radius: 20px 0 0 20px;
+    padding-right: 10px;
+}
+
+/* Activités */
+#section2
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+#titre_activ
+{
+    margin-top: 80px;
+}
+
+#port2
+{
+   background-image: url(images/activites/vieux-port.jpg);
+   background-position: center;
+   background-size: cover;
+   height: 360px;
+   width: 300px;
+}
+
+#pomegues
+{
+    background-image: url(images/activites/pomègues.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 150px;
+    width: 300px;
+}
+
+#frioul
+{
+    background-image: url(images/activites/frioul.jpg);
+    background-position:top;
+    background-size: cover;
+    height: 125px;
+    width: 300px;
+}
+
+#calanques
+{
+    background-image: url(images/activites/calanques.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 360px;
+    width: 300px;
+}
+
+#notre-dame
+{
+    background-image: url(images/activites/notre-dame.jpg);
+    background-position: top;
+    background-size: cover;
+    width: 300px;
+    height: 140px
+}
+
+#longchamps
+{
+    background-image: url(images/activites/longchamp.jpg);
+    background-position: top;
+    background-size: cover;
+    width: 300px;
+    height: 160px
+}
+
+.cadre_activ
+{
+    background-color: white;
+    border-bottom: 5px solid white;
+    border-radius: 50px;
+}
 
 /* footer */
