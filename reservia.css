@@ -1,6 +1,11 @@
  body
 {
     font-family: 'Raleway', sans-serif;
+    padding:
+}
+
+#bloc_page
+{
     padding: 50px;
 }
 
@@ -467,3 +472,16 @@ aside p
 }
 
 /* footer */
+footer
+{
+    display: flex;
+    justify-content: flex-start;
+    background-color: #F2F2F2;
+    width: 100%;
+    padding: 50px;
+}
+
+footer div
+{
+    margin-right: 410px;
+}
